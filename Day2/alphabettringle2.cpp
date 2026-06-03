@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+   
+    for (int i = 0; i < 6; i++)
+    { char ch = 'A'+i-1;
+        for (int j = 0; j < i; j++)
+        {
+            cout << ch;
+            
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
